@@ -22,6 +22,9 @@
 		return false;
 	}
 </script>
+<!-- TORROW -->
+    <script src="https://cdn-public.torrow.net/widget/torrow-widget3.js" defer></script>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
 
 <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-170452-4y5Ky';</script>
@@ -82,6 +85,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </head>
 <body  itemscope itemtype="http://schema.org/Organization">
+
+<!-- TORROW -->
+	<torrow-widget
+		id="torrow-widget"
+		url="https://web.torrow.net/app/tabs/tab-search/item/service/list;id=aae6103ea535a1cd0a15da2a3dd3e79c6?closeButtonHidden=true&tabBarHidden=true"
+		modal="center"
+		modal-active="false"
+		modal-width="900px" 
+		modal-height="80%" 
+		show-widget-button="false"
+		show-close-button="true"
+	></torrow-widget>
 <!---->
 <div class="page">
 <div class="page-bg"></div>
@@ -152,9 +167,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--<div class="nav__buy-ticket">
 <button type="button" class="btn buy-over">Купить билет</button>
 </div>-->
-<div class="nav__buy-ticket">
+<!-- <div class="nav__buy-ticket">
 <a href="https://skazkindom.ru/theater/affiche/"><button type="button" class="btn buy-over">Купить билет</button></a>
+</div>-->
+<!-- TORROW -->
+<div class="nav__buy-ticket">
+<button type="button" class="btn buy-over" onClick="(function(){document.querySelector('#torrow-widget').setAttribute('modal-active', 'true')})()">Купить билет</button>
 </div>
+
 
 
 <div class="nav__container">
@@ -371,6 +391,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <br>Пожалуйста, не забывайте <b>сменную обувь!</b></p>
 </div>
 
+<!-- TORROW -->
+<iframe style="border: 1px solid lightgray; width:80%; max-width:700px; margin-left: auto; display: block; margin-right: auto; height: 98%; min-height:600px;" src="https://web.torrow.net/app/tabs/tab-search/item/service/list;id=aae6103ea535a1cd0a15da2a3dd3e79c6?closeButtonHidden=true&tabBarHidden=true"></iframe>
+
+<!--
 <form action="/search/" class="form form-search1">
     <h3 class="form-search__title">Быстрый поиск развлечений</h3>
     <fieldset>
@@ -408,6 +432,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </fieldset>
 </form>
+-->
+
+<!-- TORROW
 	 <div class="slider-container">
 <div class="main-slider">
 <div class="swiper-container">
@@ -450,7 +477,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="slider-container__dec-b"></div>
 <div class="slider-container__dec-f"></div>
 </div>
-
+-->
 <div class="welcome">
 <h1 class="title title_size-m">Детский театр &laquo;Сказкин Дом&raquo;</h1>
 <div class="welcome__image">
