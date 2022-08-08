@@ -118,6 +118,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		show-widget-button="false"
 		show-close-button="true"
 	></torrow-widget>
+
+    <torrow-widget
+		id="torrow-widget-buy1"
+        url="https://torrow.net/app/tabs/tab-context-list/service;id=aae6103ed47577ecda15da2a3dd3e8ebf?closeButtonHidden=true&tabBarHidden=true"
+		modal="right"
+		modal-width="550px"
+		show-widget-button="false"
+		show-close-button="true"
+	></torrow-widget>
+
+    <torrow-widget
+		id="torrow-widget-buy2"
+        url="https://torrow.net/app/tabs/tab-context-list/service;id=aae6103eda5a49684a15da2a3dd3e99d8?closeButtonHidden=true&tabBarHidden=true"
+		modal="right"
+		modal-width="550px"
+		show-widget-button="false"
+		show-close-button="true"
+	></torrow-widget>
+
+    <torrow-widget
+		id="torrow-widget-buy3"
+        url="https://torrow.net/app/tabs/tab-context-list/service;id=aae6103edd77b78b2a15da2a3dd3e7d1e?closeButtonHidden=true&tabBarHidden=true"
+		modal="right"
+		modal-width="550px"
+		show-widget-button="false"
+		show-close-button="true"
+	></torrow-widget>
+	
 <!---->
 
 <!---->
@@ -189,7 +217,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>-->
 <!-- TORROW -->
 <div class="nav__buy-ticket">
-<button type="button" class="btn buy-over" onClick="(function(){document.querySelector('#torrow-widget').setAttribute('modal-active', 'true')})()">Купить билет</button>
+<button type="button" class="btn buy-over" onClick="(function(){document.querySelector('#torrow-widget-button').setAttribute('modal-active', 'true')})()">Купить билет</button>
 </div>
 
 
@@ -550,8 +578,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p class="spectacle__location">
 Сказкин Дом на Горьковской</p>
 <div class="spectacle__buy">
+<!-- TORROW
 	<a href="/theater/masha-i-medved/#form-buy-ticket" class="btn  btn_border btn_buy"
 		onclick="yaCounter40342830.reachGoal('ticket'); ga('send', 'event','ticket','click'); VK.Goal('add_to_cart'); return true;">
+		Купить билеты
+	</a>
+-->	
+	<a onClick="(function(){document.querySelector('#torrow-widget-buy1').setAttribute('modal-active', 'true')})()">
 		Купить билеты
 	</a>
 
@@ -582,11 +615,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p class="spectacle__location">
 Сказкин Дом на Горьковской</p>
 <div class="spectacle__buy">
+<!-- TORROW
 	<a href="/theater/priklyucheniya-u-lukomorya/#form-buy-ticket" class="btn  btn_border btn_buy"
 		onclick="yaCounter40342830.reachGoal('ticket'); ga('send', 'event','ticket','click'); VK.Goal('add_to_cart'); return true;">
 		Купить билеты
 	</a>
-
+-->
+	<a onClick="(function(){document.querySelector('#torrow-widget-buy2').setAttribute('modal-active', 'true')})()">
+		Купить билеты
+	</a>
 
 <p class="spectacle__date">
 3 Февраля<br> <span>Четверг</span>					</p>
@@ -614,11 +651,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p class="spectacle__location">
 Сказкин Дом на Горьковской</p>
 <div class="spectacle__buy">
+<!-- TORROW
 	<a href="/theater/pryanichnyy-domik/#form-buy-ticket" class="btn  btn_border btn_buy"
 		onclick="yaCounter40342830.reachGoal('ticket'); ga('send', 'event','ticket','click'); VK.Goal('add_to_cart'); return true;">
 		Купить билеты
 	</a>
-
+-->
+	<a onClick="(function(){document.querySelector('#torrow-widget-buy3').setAttribute('modal-active', 'true')})()">
+		Купить билеты
+	</a>
 
 <p class="spectacle__date">
 3 Февраля<br> <span>Четверг</span>					</p>
