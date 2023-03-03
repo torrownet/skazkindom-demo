@@ -7,6 +7,12 @@
 
 body {
   font-family: 'Verdana', sans-serif;
+  font-size: 12px;
+}
+
+.font-medium {
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .border-torrowpurple-900 {
