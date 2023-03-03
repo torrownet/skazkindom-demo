@@ -35,7 +35,7 @@ body {
 
 .hover\:bg-torrowpurple-700:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(127 255 162 / var(--tw-bg-opacity));
+  background-color: rgb(160 200 20 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-torrowpurple-900:hover {
@@ -44,11 +44,11 @@ body {
 }
 .focus\:ring-torrowpurple-300:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(191 255 208 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(160 200 20 / var(--tw-ring-opacity));
 }
 .dark .dark\:bg-torrowpurple-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(143 255 173 / var(--tw-bg-opacity));
+  background-color: rgb(160 200 20 / var(--tw-bg-opacity));
 }
 .dark .dark\:hover\:bg-torrowpurple-700:hover {
   --tw-bg-opacity: 1;
