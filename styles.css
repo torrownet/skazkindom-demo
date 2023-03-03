@@ -9,41 +9,33 @@ body {
   font-family: 'Verdana', sans-serif;
   font-size: 12px;
 }
-
 .font-medium {
   font-weight: 500;
   font-size: 14px;
 }
-
 .border-torrowpurple-900 {
   --tw-border-opacity: 1;
   border-color: rgb(160 200 20 / var(--tw-border-opacity));
 }
-
 .bg-torrowpurple-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(160 200 20 / var(--tw-bg-opacity));
 }
-
 .fill-torrowpurple-900 {
   fill: rgb(160 200 20);
 }
-
 .text-torrowpurple-900 {
   --tw-text-opacity: 1;
   color: rgb(160 200 20 / var(--tw-text-opacity));
 }
-
 .text-green-500 {
   --tw-text-opacity: 1;
   color: rgb(160 200 20 / var(--tw-text-opacity));
 }
-
 .hover\:bg-torrowpurple-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(160 200 20 / var(--tw-bg-opacity));
 }
-
 .hover\:bg-torrowpurple-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(160 200 20 / var(--tw-bg-opacity));
@@ -68,7 +60,6 @@ body {
   --tw-bg-opacity: 1;
   background-color: rgb(244 255 182 / var(--tw-bg-opacity));
 }
-
 .bg-pink-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(236 255 153 / var(--tw-bg-opacity));
